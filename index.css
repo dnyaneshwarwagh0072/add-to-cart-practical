@@ -1,0 +1,176 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #10E37F;
+    font-size: 12px;
+}
+
+h1 {
+    color: #4C4C4C;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+}
+
+h3 {
+    color: #A6A6A6;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.title span {
+    color: #ABABAB;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.price p,
+span {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #FE4546;
+}
+
+
+
+.price p {
+    font-size: 20px;
+}
+
+.price span {
+    font-size: 50px;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.product__photo {
+    background-color: white;
+    width: 50%;
+    margin: 10% -10%;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0.2, 0.2, 0.2);
+}
+
+.photo-main {
+    border-radius: 5px;
+    background-image: radial-gradient(rgb(217, 255, 0), rgb(23, 193, 0));
+    padding: 25px 0;
+}
+
+.photo-container {
+    width: 100%;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+.big-apple-img {
+    width: 100%;
+    margin-left: -20%;
+    margin-bottom: 55px;
+}
+
+.left-apple-list {
+    display: flex;
+    float: right;
+    width: 250px;
+    width: 80%;
+    margin: 25px 10px;
+}
+
+.left-apple {
+    width: 70%;
+    border: 1px solid rgb(215, 212, 218);
+    border-radius: 3px;
+    padding: 8%;
+}
+
+
+
+
+/* RIGHT-SIDE */
+
+
+.product__info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 15% 0;
+}
+
+.variant {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.right-apple {
+    width: 70%;
+    display: flex;
+    float: left;
+    padding: 8%;
+}
+
+.one-border {
+    border: 1px solid rgb(215, 212, 218);
+    border-radius: 3px;
+}
+
+.right-apple-list {
+    width: 150px;
+}
+
+.variant ul {
+    display: flex;
+}
+
+.left-apple-list,
+.right-apple-list li {
+    list-style: none;
+
+}
+
+.description li {
+    color: #515151;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+.description h3 {
+    margin-top: 35px;
+}
+
+.btn-container button {
+    background-color: #FE3F40;
+    padding: 17px 45px;
+    color: rgb(235, 227, 227);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 1px;
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 10px 14px 0 rgba(0, 0.2, 0.2, 0.2);
+}
